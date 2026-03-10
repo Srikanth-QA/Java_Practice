@@ -18,6 +18,12 @@ public class Arraya_declaraing_single_dimensional {
 		//read single value
 		System.out.println(a[4]);
 		
+		//normal loop
+		for(int i=0; i<a.length-1;i++)
+		{
+			System.out.println(a[i]);
+		}
+		
 		
 		
 	}
