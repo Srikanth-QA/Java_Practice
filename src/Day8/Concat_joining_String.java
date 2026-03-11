@@ -1,0 +1,17 @@
+package Day8;
+
+public class Concat_joining_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s1="Welcome";
+String s2=" to java";
+String s3=" automation";
+System.out.println(s1+s2);
+System.out.println(s1.concat(s2));
+System.out.println(s1+s2+s3);
+System.out.println(s1.concat(s2).concat(s3));
+System.out.println();
+	}
+
+}
