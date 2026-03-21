@@ -8,7 +8,6 @@ void PrintStudentData()
 {
 	System.out.println(sid+" "+Sname+" "+Grade);
 }
-
 void setStudentData(int id, String name, char gr)
 {
 	sid =id;
@@ -16,7 +15,8 @@ void setStudentData(int id, String name, char gr)
 	Grade = gr;
 }
 
-void Student(int id, String name, char gr)
+//constructor 
+ class_Student(int id, String name, char gr)
 {
 	sid =id;
 	Sname = name;
